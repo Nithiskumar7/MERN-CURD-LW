@@ -15,7 +15,7 @@ function App() {
   const [newFoodName, setNewFoodName] = useState('');
 
   useEffect(() => {
-    Axios.get('http://localhost:5000/read')
+    Axios.get('https://curd-server-qqej.onrender.com/read')
       .then((response) => {
         console.log(response.data)
         setFoodList(response.data.Result);
@@ -24,7 +24,7 @@ function App() {
   }, [])
 
   const addFoodData = () => {
-    Axios.post("http://localhost:5000/insert",
+    Axios.post("https://curd-server-qqej.onrender.com/insert",
       {
         foodName: foodName,
         description: description
@@ -32,13 +32,13 @@ function App() {
   };
 
   const UpdateFoodData = (id) => {
-    Axios.put("http://localhost:5000/update", {
+    Axios.put("https://curd-server-qqej.onrender.com/update", {
       id: id, newFoodName: newFoodName
     })
   }
 
   const DeleteData = (id) => {
-    Axios.delete(`http://localhost:5000/delete/${id}`)
+    Axios.delete(`https://curd-server-qqej.onrender.com/delete/${id}`)
     .then((res)=>console.log(res))
     .catch(err=>console.log(err))
     };
