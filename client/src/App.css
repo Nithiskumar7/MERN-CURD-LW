@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #12b3f6;
+}
+
+.container {
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 50px auto;
+}
+
+form {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    /* box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1); */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 30px 25px 25px 25px;
+}
+
+.title {
+    height: 50px;
+    background: #ecef02;
+    border-radius: 5px 5px 0 0;
+    color: #12b3f6;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-float {
+    margin-top: 15px;
+    height: 45px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.form-float label {
+    color: #12b3f6;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.form-float input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.form-float input:focus {
+    border-color: #ecef02;
+    box-shadow: inset 0px 0px 2px 2px #ecef02;
+}
+
+.form-float input::placeholder {
+    color: #999;
+}
+
+.btn {
+    margin-top: 15px;
+    color: #12b3f6;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 20px;
+    background: #ecef02;
+    border: 2px solid #ecef02;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    transition: .5s ease;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: #12b3f6;
+    border: 2px solid #12b3f6;
+    color: #ecef02;
+}
+
+/*Table*/
+
+.container2 {
+    max-width: 500px;
+    margin: 100px auto;
+    margin-left: 50px;
+}
+
+table,
+tr,
+th,td{
+    border: 1px solid #ecef02;
+}
+
+table {
+    text-align: center;
+}
+
+table th {
+    background-color: #ecef02;
+    color: #12b3f6;
+    padding: 15px 110px;
+}
+
+table tr {
+    background-color: #12b3f6;
+}
+
+table td {
+    padding: 10px 100px;
+}
+.edit{
+    display: flex;
+}
+.edit input{
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    padding: 5px;
+    padding-left: 10px;
+}
+.edit input:focus {
+    border-color: #ecef02;
+    box-shadow: inset 0px 0px 2px 2px #ecef02;
+}
+.edit button{
+    border: 2px solid #ecef02;
+    margin-left: 5px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #12b3f6;
+    background-color: #ecef02;
+    font-weight: 700;
+    transition: .5s ease;
+}
+.edit button:hover{
+    background: none;
+    border: 2px solid #ecef02;
+    color: #ecef02;
+}
+.btn2{
+    border: 2px solid #ecef02;
+    margin-left: 5px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #12b3f6;
+    background-color: #ecef02;
+    font-weight: 700;
+    transition: .5s ease;
+}
+.btn2:hover{
+    background: none;
+    border: 2px solid #ecef02;
+    color: #ecef02;
+}

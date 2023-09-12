@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  header{
+    background: #ecef02;
+    height: 70px;
+    width: 100%;
+    padding: 18px 100px;
+    box-shadow: 0 0.5rem 1.5rem rgba(255, 255, 255, 0.1);
+  }
+
+header .logo a{
+    color:#12b3f6;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 900;
+}
