@@ -8,7 +8,7 @@ app.use(cors());
 const FoodModel=require("./models/Food");
 
 
-mongoose.connect("mongodb://localhost:27017/food")
+mongoose.connect("mongodb+srv://snithiskumar456:admin@cluster0.wejmecj.mongodb.net/?retryWrites=true&w=majority/food")
 .then(()=>console.log("connected to mongoose"))
 .catch(err=>console.log(err))
 
